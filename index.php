@@ -51,18 +51,20 @@ foreach ($movies_array as $movie) {
                 <li class="list-group-item">
                     <h2><?= $movie->getTitle() ?></h2>
                     <?php if ($movie->genres) : ?>
-                        <h6><?= $movie->getGenres() ?></h6>
+                        <h6 class="mb-0"><?= $movie->getGenres() ?></h6>
                     <?php endif ?>
                 </li>
                 <li class="list-group-item text-start">
-                    <p><?= $movie->getPlot() ?></p>
+                    <p class="mb-0"><?= $movie->getPlot() ?></p>
                 </li>
                 <li class="list-group-item">
-                    <h6>Regia: <?= $movie->getDirector() ?></h6>
+                    <h6 class="mb-0">Regia: <?= $movie->getDirector() ?></h6>
                 </li>
-                <li class="list-group-item">
-                    <h6>Cast: <?= $movie->getActors() ?></h6>
-                </li>
+                <?php if ($movie->actors) : ?>
+                    <li class="list-group-item">
+                        <h6 class="mb-0">Cast: <?= $movie->getActors() ?></h6>
+                    </li>
+                <?php endif ?>
             </ul>
         <?php endforeach ?>
     </div>
