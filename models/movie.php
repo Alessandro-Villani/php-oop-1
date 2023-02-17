@@ -1,6 +1,6 @@
 <?php
 
-include_once "genre.php";
+include_once("genre.php");
 
 class Movie
 {
@@ -39,8 +39,9 @@ class Movie
     public function getActors()
     {
         $actors_names = '';
-        foreach ($this->actors as $actor) {
-            $actors_names .= $actor . ' ';
+        foreach ($this->actors as $i => $actor) {
+            $actors_names .= $actor;
+            if ($i < count($this->actors) - 1) $actors_names .= ', ';
         }
         return trim($actors_names);
     }
@@ -48,8 +49,9 @@ class Movie
     public function getGenres()
     {
         $genres_names = '';
-        foreach ($this->genres as $genre) {
-            $genres_names .= $genre . ' ';
+        foreach ($this->genres as $i => $genre) {
+            $genres_names .= ucfirst($genre->name);
+            if ($i < count($this->genres) - 1) $genres_names .= ', ';
         }
         return trim($genres_names);
     }
