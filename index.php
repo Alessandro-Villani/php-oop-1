@@ -45,7 +45,7 @@ foreach ($movies_array as $movie) {
 </head>
 
 <body>
-    <div class="movies container py-5">
+    <div class="movies container pt-5">
         <?php foreach ($movies as $movie) : ?>
             <ul class="list-group text-center mb-3">
                 <li class="list-group-item">
