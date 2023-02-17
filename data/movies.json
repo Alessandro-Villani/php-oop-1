@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Black Panther - Wakanda Forever",
+        "director": "Ryan Coogler",
+        "plot": "La Regina Ramonda, Shuri, M’Baku, Okoye e le Dora Milaje, lottano per proteggere la loro nazione dalle invadenti potenze mondiali dopo la morte di Re T’Challa. Mentre gli abitanti del Wakanda cercano di comprendere il prossimo capitolo della loro storia, gli eroi devono riunirsi con l’aiuto di War Dog Nakia e di Everett Ross e forgiare un nuovo percorso per il regno del Wakanda.",
+        "actors": ["Letitia Wright", "Lupita Nyong'o", "Danai Gurira"]
+    },
+    {
+        "id": 2,
+        "title": "Il gatto con gli stivali 2 - L'ultimo desiderio",
+        "director": "Tommy Swerdlow",
+        "plot": "Il Gatto con gli Stivali scopre che la sua passione per l'avventura è stata pagata a caro prezzo: ben otto delle sue nove vite sono andate bruciate. Dovrà così intraprendere una nuova epica avventura alla ricerca del mitico Ultimo Desiderio, che gli permetterà di recuperare le sue nove vite.",
+        "actors": ["Antonio Banderas", "Salma Hayek"]
+    },
+    {
+        "id": 3,
+        "title": "Avatar - La via dell'acqua",
+        "director": "James Cameron",
+        "plot": "Jake Sully vive con la sua nuova famiglia sul pianeta Pandora. Ma quando una vecchia, familiare minaccia torna ad affacciarsi per terminare quel che era stato iniziato un tempo, Jake dovrà nuovamente collaborare con Meytiri e l'esercito dei Na'vi per proteggere il loro incredibile pianeta. Jake e Naytiri saranno pertanto costretti a lasciare la loro casa ed esplorare varie regioni di Pandora.",
+        "actors": ["Sam Worthington", "Zoe Saldaña", "Sigourney Weaver", "Britain Dalton"]
+    }
+]
